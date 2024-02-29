@@ -1,4 +1,4 @@
-'''a  = 'salom'
+'''a  = 'salom1'
 b = 3
 c = 4.5
 d = True # False
