@@ -1,4 +1,4 @@
-#salom
+#salom github dan
 '''while True:
     n = int(input('n = '))
     b = {
