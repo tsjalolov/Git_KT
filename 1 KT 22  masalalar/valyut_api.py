@@ -49,9 +49,20 @@ v = {
         "JPY": 1.6602608
     }
 }
-x = input('valyutani kiriting --> ')
+
+
+
+
+
+
+
+
+
+y = float(input('necha rubl bor sizda -->'))
+x = input('qaysi valyutaga almashtirasiz --> ')
 #print(v['rates'].keys())
 for i in v['rates'].keys():
     #print(i)
     if x == i:
-        print(1,v['base'],' = ',v['rates'][i],i)
+        print(y,v['base'],' = ',v['rates'][i] * y,i)
+        print(type(v['rates'][i]))
