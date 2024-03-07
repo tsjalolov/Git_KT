@@ -60,6 +60,7 @@ v = {
 
 y = float(input('necha rubl bor sizda -->'))
 x = input('qaysi valyutaga almashtirasiz --> ')
+x = x.upper()
 #print(v['rates'].keys())
 for i in v['rates'].keys():
     #print(i)
