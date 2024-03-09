@@ -51,16 +51,10 @@ v = {
 }
 
 
-
-
-
-
-
-
-
-y = float(input('necha rubl bor sizda -->'))
+y = float(input("necha so'm bor sizda -->"))
 x = input('qaysi valyutaga almashtirasiz --> ')
 x = x.upper()
+print(v['rates'][x] * y / v['rates']['UZS'] )   #bu sumni rublga keyin USD ga almashtiradi
 #print(v['rates'].keys())
 for i in v['rates'].keys():
     #print(i)
