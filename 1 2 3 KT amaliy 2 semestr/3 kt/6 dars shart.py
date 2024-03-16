@@ -12,7 +12,9 @@ else:
         print('* katta ',c2)
     else:
         print(' = ',c2)'''
-'''#6.3.2   c1       c2
+
+
+#6.3.2   c1       c2
 # min2(a+b+c/2, a*b*c) + 1
 a = int(input('a = '))
 b = int(input('b = '))
@@ -27,7 +29,7 @@ else:
         c2 = c2 ** 2 + 1
         print('* kichik ',c2)  
     else:
-        print(' = ',c2)'''
+        print(' = ',c2 ** 2 + 1)
 '''# 6.4   a>b>c
 a = int(input('a = '))
 b = int(input('b = '))
