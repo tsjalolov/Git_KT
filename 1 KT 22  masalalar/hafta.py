@@ -1,5 +1,5 @@
 #salom github dan
-'''while True:
+while True:
     n = int(input('n = '))
     b = {
         1: 'dushanba',
@@ -14,7 +14,7 @@
     if n > 0 and n < 8:
         print(b[n])
     else:
-        print(b[8])  '''
+        print(b[8])  
 '''
 while True:
     n = int(input('n ='))
@@ -31,7 +31,7 @@ while True:
     else:
         print('kechirasiz')
 '''
-n = int(input('n ='))
+'''n = int(input('n ='))
 birlik = {
     1:'bir',
     2:'ikki',
@@ -88,7 +88,7 @@ elif len(suz)==5:
 
 
     
-print(chiqarish)
+print(chiqarish)'''
 
 
 
