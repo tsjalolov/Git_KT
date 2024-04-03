@@ -21,7 +21,7 @@ else:
         print('x va y teng')'''
 
 #6-2
-x = int(input('x='))
+'''x = int(input('x='))
 y = int(input('y='))
 z = int(input('z='))
 print('kattasi -->',max(x,y,z))
@@ -34,5 +34,13 @@ else:
         if z > x and z > y:
             print('z katta')
         else:
-            print('tenglik bor')
-        
+            print('tenglik bor')'''
+#6.4  
+
+x = int(input('x='))
+y = int(input('y='))
+z = int(input('z='))
+if x > y and y > z:
+    print('qanoatlantiradi')
+else:
+    print('qanoatlantirmaydi')
